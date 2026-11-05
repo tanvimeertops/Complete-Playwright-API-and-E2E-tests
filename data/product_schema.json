@@ -1,0 +1,27 @@
+{
+    "type": "object",
+    "required": [
+        "id",
+        "name",
+        "image",
+        "price",
+        "description",
+        "brand",
+        "category",
+        "rating",
+        "stock",
+        "createdAt"
+    ],
+    "properties": {
+        "id": {"type": "string"},
+        "name": {"type": "string"},
+        "image": {"type": "string"},
+        "price": {"type": "string"},
+        "description": {"type": "string"},
+        "brand": {"type": "string"},
+        "category": {"type": "string"},
+        "rating": {"type": "string"},
+        "stock": {"type": "string"},
+        "createdAt": {"type": "string"}
+    }
+}
